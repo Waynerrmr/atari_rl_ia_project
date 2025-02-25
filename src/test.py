@@ -19,6 +19,7 @@ arquivos_modelo = [f for f in os.listdir(diretorio_modelos) if f.startswith(f"dq
 
 if arquivos_modelo:
     modelo_recente = sorted(arquivos_modelo, key=lambda x: int(x.split("_ep")[1].split(".pth")[0]))[-1]
+    # caminho_modelo = 'models/dqn_Pong-ramNoFrameskip-v4_ep30.pth'
     caminho_modelo = os.path.join(diretorio_modelos, modelo_recente)
     print(f"✅ Carregando modelo mais recente: {caminho_modelo}")
     modelo.load_state_dict(torch.load(caminho_modelo, map_location=dispositivo))

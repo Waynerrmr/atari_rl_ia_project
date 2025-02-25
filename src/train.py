@@ -77,7 +77,7 @@ for episodio in range(NUM_EPISODES):
 
     EXPLORATION = max(MIN_EXPLORATION, EXPLORATION * EXPLORATION_DECAY)
     if (episodio + 1) % 10 == 0:
-        torch.save(modelo.state_dict(), f"models/dqn_{NOME_AMBIENTE}_ep{episodio + 1}.pth")
+        torch.save(modelo.state_dict(), f"models/dqn_{NOME_AMBIENTE}_ep{episodio + 1}_explr{EXPLORATION}.pth")
         print(f"Modelo salvo após {episodio + 1} episódios")
     print(f"Episódio {episodio + 1}, Recompensa: {recompensa_total:.2f}, Exploração: {EXPLORATION:.2f}")
 
