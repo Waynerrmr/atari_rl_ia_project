@@ -70,3 +70,6 @@ Sugiro que não instalem mais nada, já está rodando normalmente, não vamos es
 pip freeze > requirements.txt
 ```
 
+## 📄 Relatório/Artigo Técnico-Científico
+- [Versão em português](https://onedrive.live.com/:w:/g/personal/EC40BC6C7F2E6E05/EbsqaJqrZahIt5rrkTG2hPwBeHQLg2ztW6ODOj-MfOW5ZA?resid=EC40BC6C7F2E6E05!s9a682abb65ab48a8b79aeb9131b684fc&ithint=file%2Cdocx&e=aXT2Vm&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy9lYzQwYmM2YzdmMmU2ZTA1L0Vic3FhSnFyWmFoSXQ1cnJrVEcyaFB3QmVIUUxnMnp0VzZPRE9qLU1mT1c1WkE_ZT1hWFQyVm0)
+- [Versão em inglês](https://onedrive.live.com/:w:/g/personal/EC40BC6C7F2E6E05/EcI5bV1G381Hlbse1b0qgZQBXCAtuYOwWXhjmYg4rfb-EQ?resid=EC40BC6C7F2E6E05!s5d6d39c2df4647cd95bb1ed5bd2a8194&ithint=file%2Cdocx&e=CJYHa5&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy9lYzQwYmM2YzdmMmU2ZTA1L0VjSTViVjFHMzgxSGxic2UxYjBxZ1pRQlhDQXR1WU93V1hoam1ZZzRyZmItRVE_ZT1DSllIYTU)
